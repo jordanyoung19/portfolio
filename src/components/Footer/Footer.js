@@ -24,13 +24,13 @@ function Footer() {
     <FooterSection>
       <div className="Container">
         <span>
-          Coded with 💙 by{" "}
+          Thanks for reading 🤍{" "}
           <a
-            href="https://github.com/gurupawar/"
+            href="https://github.com/jordanyoung19/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            @gurupawar
+            @jordanyoung19
           </a>{" "}
         </span>
       </div>

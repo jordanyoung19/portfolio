@@ -6,6 +6,7 @@ import {
   CardRight,
   Stack,
   BtnGroup,
+  descriptionList
 } from "./ProjectCardElements";
 function ProjectCard() {
   return (
@@ -13,16 +14,16 @@ function ProjectCard() {
       {ProjectList.map((list, index) => (
         <Card key={index}>
           <CardLeft>
-            <img src={list.img} alt={list.name} />
+            <img src={list.img} alt={list.name}/>
           </CardLeft>
           <CardRight>
             <h4>{list.title}</h4>
             <p>{list.description}</p>
             <Stack>
-              <span className="stackTitle">Tech Stack -</span>
+              <span className="stackTitle">Tech Used -</span>
               <span className="tags">{list.tech_stack}</span>
             </Stack>
-            <BtnGroup>
+            {/* <BtnGroup>
               <a
                 className="btn btn2 SecondarBtn"
                 href={list.github_url}
@@ -39,7 +40,7 @@ function ProjectCard() {
               >
                 Demo ➜
               </a>
-            </BtnGroup>
+            </BtnGroup> */}
           </CardRight>
         </Card>
       ))}
