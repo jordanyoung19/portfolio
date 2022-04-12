@@ -19,13 +19,15 @@ function About() {
             alt="man-svgrepo"
           />
           <div className="AboutBio">
-            Hello! My name is <strong>Your Name</strong> Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged.
+            An extremely driven person with a diverse skillset and broad background. 
+            Strong technical background from studies as a Computer Science Major and 
+            professional software engineering experience, along with developed business 
+            and management skills from studies of management minor along with heavy leadership 
+            experience outside of academics as well. 
+
+            Currently a senior at the University of California, Irvine. Working towards 
+            integrating into the technical field where I hope to constantly better human 
+            computer interaction and drive technology in society forward.
           </div>
           <div className="AboutBio tagline2">
             I have become confident using the following technologies.
